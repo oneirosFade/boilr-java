@@ -1,16 +1,26 @@
-# Installation
+# Barebones Java Template for [boilr][boilr]
+## Installation
+### Cloning
+You can clone this repo and inspect/modify it before importing it into boilr as follows:
 
-1. (Optional) Clone this repo somewhere comfortable.
-2a. (If you cloned the repo) Run <code>boilr template save <template-path> <template-tag></code>
-2b. (If you didn't clone) Run <code>boilr template download oneirosFade/boilr-java <template-tag></code>
-3. Use this template with <code>boilr template use <template-tag> <target-dir></code>
+* Clone this repo somewhere comfortable.
+* Run <code>boilr template save &lt;template-path&gt; &lt;template-tag&gt;</code>
 
-# Contributing
+### No Cloning
+You can install this repo without cloning it as follows:
+
+* Run <code>boilr template download oneirosFade/boilr-java &lt;template-tag&gt;</code>
+
+### Usage
+Create an empty Java project with <code>boilr template use &lt;template-tag&gt; &lt;target-dir&gt;</code>
+
+## Contributing
 
 This is a pretty tiny project, but feel free to contribute fixes or additions.
 
-# License
+## License
 
 This project is licensed under the [WTFPL][wtfpl].
 
+[boilr]: https://github.com/tmrts/boilr "boilr"
 [wtfpl]: http://www.wtfpl.net/about/ "WTF Public License"
